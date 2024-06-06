@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    background: linear-gradient(to top, lime, 20%, cyan);
+    background-repeat: no-repeat;
+    background-size:100vw;
+
+}
+header{
+ 
+     position: relative;
+     background-color: rgba(21, 78, 117, 0.951);
+}
+.navbar{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 10px 20px;
+    align-items: center;
+    height: 4rem;
+    color: white;
+  
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.navbar ul li a{
+    color: rgb(221, 235, 236);
+    text-decoration: none;
+}
+.navbar ul li a:active{
+    color: rgb(231, 151, 255);
+}
+.navbar ul li a:hover{
+    color: rgb(35, 65, 62);
+}
+
+/* Styling home */
+
+.home{
+    background-color: rgb(49, 159, 244);
+    color: white;
+}
+.homeStyle{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5rem;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.homeAbout{
+    width: 50%;
+    padding-top: 0px;
+    
+ 
+}
+.homeAbout h1{
+    font-size: xx-large;
+  
+
+    top: 0rem;
+}
+.homeImage{
+    width: 50%;
+}
+
+.homeImage img{
+    height: 20rem;
+}
+.storyStyle{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 5rem;
+    align-items: center;
+    padding: 2rem;
+}
+.storyImage{
+  width: 50%;
+}
+.storyImage img{
+    height: 20rem;
+}
+.storyAbout{
+ width: 50%;
+}
+.servicesStyle , .introStyle , .blogStyle ,.contactStyle{ 
+    text-align: center;
+    padding:3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.servicesStyle span , .introStyle  span , .blogStyle span , .contactStyle span{
+    border: 2px solid blue;
+    border-radius: 40px;
+    padding: 6px 20px;
+}
+.servicesStyle h1 , .introStyle h1 , .blogStyle h1 , .contactStyle h1{
+    padding: 1rem 1rem;
+    font-size: xx-large;
+}
+.servicesStyle .cards , .blogStyle .blogCards{
+    padding: 1rem 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.servicesStyle .card , .blogStyle .blogCard{
+    border: 2px solid rgb(229, 229, 236);
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    align-items: center;
+    width:25%;
+    transition: 0.5s;
+    padding: 5px;
+    
+}
+.servicesStyle .card img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+.servicesStyle .card h4 , .blogStyle .blogCard h2{
+    padding-bottom: 10px ;
+}
+.servicesStyle  .card:hover , .blogStyle .blogCard:hover {
+    box-shadow: 10px 10px 0px 0px rgba(16, 13, 13, 0.2);
+  }
+
+.blogStyle .blogCard img{
+    transition: transform .5s;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.blogStyle .blogCard img:hover{
+    transform: scale(1.1);
+}
+.contactStyle{
+    border: 2px solid white;
+    border-radius:10px;
+    width: 30%;
+    background-color: rgba(178, 193, 193, 0.495) ;
+   
+}
+.map{
+    padding: 2rem;
+    width: 100%;
+}
+
+
+  
