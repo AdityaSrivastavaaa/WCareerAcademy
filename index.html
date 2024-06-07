@@ -7,16 +7,18 @@
     <title>W career Academy</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="shortcut icon"
-        href="https://imgs.search.brave.com/iN7Pyz1KJ77VzDBvwnEhvziFP13whbE6uJVl9dwxD_A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQzMzg5/NTEvc2NyZWVuc2hv/dHMvMTg1NDU0NTAv/bWVkaWEvNTJmMDY2/ODdhNDAzOTUxNzUx/YWE5YTA1ODQ4NWVl/NGIuanBnP3Jlc2l6/ZT00MDB4MA"
+        href="/channels4_profile.jpg"
         type="image/x-icon">
     <link rel="stylesheet" href="/Css/style.css">
 </head>
 
 <body>
+  
+
     <header>
         <nav class="navbar">
             <div class="logo">
-                <h1>LOGO</h1>
+               <img src="/channels4_profile.jpg" alt="">
             </div>
 
             <ul>
@@ -40,10 +42,8 @@
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, architecto?</p>
 
 
-                <div class="btn">
-                    <button><a href="">GET STARTED</a></button>
-                    <button><img src="" alt=""></button>
-                    <span>Watch Intro</span>
+                <div>
+                    <button class="btn"><a href="">GET STARTED</a></button>
                 </div>
             </div>
             <div class="homeImage">
@@ -59,18 +59,12 @@
                 alt="">
         </div>
         <div class="storyAbout">
-            <p>
-                <hr>
-                Our story
-            </p>
             <h1>Our Team Comees with the experience and knowledge</h1>
             <span>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, architecto?
             </span>
-            <div class="btn">
-                <button><a href="">GET STARTED</a></button>
-                <button><img src="" alt=""></button>
-                <span>Watch Intro</span>
+            <div >
+                <button class="btn" style="margin-top: 10px;"><a href="">GET STARTED</a></button>
             </div>
         </div>
         </div>
@@ -181,9 +175,9 @@
 
         
         <span>Get In Touch</span>
-        <h1>Ready to Get Started </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, quasi.</p>
-        <form class="row g-3">
+        <h1>Register Your Self</h1>
+        <p>Register your self to get in touch with Dharmendra Sir.</p>
+        <form class="row g-3 myForm">
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="inputEmail4">
@@ -215,16 +209,10 @@
               <label for="inputZip" class="form-label">Zip</label>
               <input type="text" class="form-control" id="inputZip">
             </div>
+          
             <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button onclick="launch_toast()" type="submit" class="btn btn-primary">Register</button>
+              <button onclick="resetForm()" type="reset" class="btn btn-primary">Reset</button>
             </div>
           </form>
         </div>
@@ -243,13 +231,11 @@
       <section class="mb-4">
         <!-- Facebook -->
         <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+          ><i class="fab fa-facebook-f"></i></a>
   
         <!-- Twitter -->
         <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
+          ><i class="fab fa-twitter"></i></a>
   
         <!-- Google -->
         <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
@@ -422,8 +408,24 @@
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
-    <script src="/Js/script.js"></script>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">Registration</strong>
+            <small>Just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            You have successfully registered!
+        </div>
+    </div>
+</div>
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="/Js/script.js"></script>
 </body>
 
 </html>
