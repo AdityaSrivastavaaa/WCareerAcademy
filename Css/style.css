@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;  
 }
-body{
-    background: linear-gradient(to top, lime, 20%, cyan);
-    background-repeat: no-repeat;
-    background-size:100vw;
-
-}
-
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(2,210,240);
+background: linear-gradient(90deg, rgba(2,210,240,0.8855917366946778) 2%, rgba(0,212,255,0.9444152661064426) 25%, rgba(173,255,228,1) 81%);
+  }
+  
+  
 .navbar{
-    background-color: rgba(21, 78, 117, 0.951);
+    background-color: rgba(54, 61, 65, 0.203);
     top: 0;
     position: fixed;
     display: flex;
@@ -55,7 +58,6 @@ body{
 /* Styling home */
 
 .home {
-    background-color: rgb(49, 159, 244);
     color: white;
     margin-top: 5rem;
     
